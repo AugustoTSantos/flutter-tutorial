@@ -15,6 +15,13 @@ class _HomeState extends State<Home> {
         title: Text("data"),
         centerTitle: true,
       ),
+      body: Center(
+        child: Text("data"),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: Text("click"),
+      ),
     );
   }
 }
