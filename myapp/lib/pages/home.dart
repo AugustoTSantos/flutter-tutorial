@@ -11,7 +11,10 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text("test")
+      appBar: AppBar(
+        title: Text("data"),
+        centerTitle: true,
+      ),
     );
   }
 }
