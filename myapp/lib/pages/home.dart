@@ -24,6 +24,7 @@ class _HomeState extends State<Home> {
             fontWeight: FontWeight.bold,
             letterSpacing: 2,
             color: Colors.grey,
+            fontFamily: 'IndieFlower',
           ),
         ),
       ),
