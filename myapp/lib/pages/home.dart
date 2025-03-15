@@ -12,14 +12,24 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("data"),
+        title: Text("My App"),
         centerTitle: true,
+        backgroundColor: Colors.red,
       ),
       body: Center(
-        child: Text("data"),
+        child: Text(
+          "data", 
+          style: TextStyle(
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
+            letterSpacing: 2,
+            color: Colors.grey,
+          ),
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
+        backgroundColor: Colors.red,
         child: Text("click"),
       ),
     );
